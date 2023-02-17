@@ -79,7 +79,7 @@ const handleSubmit = async (e) => {
     // bot response
     // http://localhost:5000
 
-    const response = await fetch('https://manarabot.onrender.com', {
+    const response = await fetch('https://manarabot.onrender.com/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
